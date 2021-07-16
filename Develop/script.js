@@ -10,12 +10,12 @@ function randomUpper (){
 // console.log (randomUpper())
 
 function randomSymbol (){
-  return String.fromCharCode(Math.floor(Math.random()*15) + 33)
+  return String.fromCharCode(Math.floor(Math.random()*15) + 33);
 }
 // console.log (randomSymbol())
 
 function randomNumber () {
-  return String.fromCharCode(Math.floor(Math.random()*10) + 48)
+  return String.fromCharCode(Math.floor(Math.random()*10) + 48);
 }
 // console.log (randomNumber())
 
@@ -55,12 +55,13 @@ function generatePassword (){
   }
     // 4 accepted
     else if (wantLower && wantUpper && wantSymbol && wantNumber){
-      for (var i = 0; i < zooAnimals.length; i++) { 
-        console.log("I am going to zoo to see " + zooAnimals[i] + ".");
+      // for (var i = 0; i < zooAnimals.length; i++) { 
+      //   console.log("I am going to zoo to see " + zooAnimals[i] + ".");
     }
     }
     // 3 accepted 1 denied 
     else if (wantLower && wantUpper && wantSymbol && !wantNumber){
+      
     }
     else if (wantLower && wantUpper && !wantSymbol && wantNumber){
     }
